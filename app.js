@@ -6,14 +6,8 @@ const sideBar = document.querySelector('.sidebar');
 togglebtn.addEventListener("click",function(){
    if(sideBar.classList.contains('show-sidebar'))
    {
-    sideBar.classList.remove("show-sidebar");
-    //toggle doesnt work
-    //sideBar.classList.toggle("show-sidebar");
-   }
-   else{
-    sideBar.classList.add("show-sidebar");
-   }
-   console.log("toggle toggle")
+    sideBar.classList.toggle("show-sidebar");
+   
 });
 
 closebtn.addEventListener("click",function(){
