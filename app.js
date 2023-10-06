@@ -7,7 +7,7 @@ togglebtn.addEventListener("click",function(){
    if(sideBar.classList.contains('show-sidebar'))
    {
     sideBar.classList.toggle("show-sidebar");
-   
+   }
 });
 
 closebtn.addEventListener("click",function(){
